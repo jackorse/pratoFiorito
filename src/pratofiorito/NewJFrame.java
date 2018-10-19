@@ -5,7 +5,6 @@
  */
 package pratofiorito;
 frawGVWE;
-COME STAI?;
 import java.awt.BorderLayout;
 import javax.swing.JComboBox;
 
