@@ -1,4 +1,0 @@
-/pratoFiorito/nbproject/private/
-
-
-ccccc
