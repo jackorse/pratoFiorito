@@ -16,7 +16,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JToggleButton;
 
 /**
- *
+ *ciao
  * @author orsenigo_giacomo
  */
 public class MyToggleButton extends JToggleButton implements ImageObserver {
