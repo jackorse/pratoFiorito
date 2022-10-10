@@ -106,12 +106,15 @@ public class prato {
 //        }
 //    }
     private void spawnBombe() {
-        for (int i = 0; i < numBombe; i++) {
-            Random rn = new Random();
+        Random rn = new Random();
+        for (int i = 0; i < Math.min(numBombe, righe * colonne); ) {
             int riga = rn.nextInt(righe);
             int colonna = rn.nextInt(colonne);
-            prato[riga][colonna].setBomba(true);
-        }
+			if(!prato[riga][colonna].isBomba()) {
+				prato[riga][colonna].setBomba(true);
+				i++;
+			}
+		}
     }
 
     public void restart() {
